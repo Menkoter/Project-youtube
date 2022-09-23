@@ -8,6 +8,7 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-color: black;
 }
 
 nav {
@@ -36,4 +37,25 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+header {
+
+  font-weight: bold;
+width: 100vw;
+height: 100vh;
+background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+}
+
+footer{
+  background-color: #00a8c7;
+}
+
+
+html{
+  color: white;
 }
