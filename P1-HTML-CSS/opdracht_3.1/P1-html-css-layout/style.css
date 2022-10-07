@@ -3,12 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
   background-color: black;
+  height: 100vh;
+
+
 }
 
 nav {
@@ -21,41 +26,75 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
+section{
+  width: 100vw;
+  height: 100vh;
+}
 
-header {
-
+.container {
   font-weight: bold;
-width: 100vw;
-height: 100vh;
-background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);  
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-color: black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  
 }
 
-footer{
+footer {
   background-color: #00a8c7;
+  height: 10vh;
 }
 
 
-html{
+html {
   color: white;
+}
+
+
+.css{
+  width: 40vw;
+  float: right;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #00a8c7;
+  min-width: 20vw;
+  box-shadow: 0rem 0,5rem;
+  z-index: 1;
+}
+.dropdown-content a {
+  color:rgb(255, 255, 255);
+  padding: 0,8rem 1rem;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
